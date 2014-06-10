@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@import MapKit;
 
 @interface SBSViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet MKMapView *mappy;
 
 @end

@@ -21,6 +21,7 @@
 		63839CEE1947846B00312AFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63839CD01947846B00312AFB /* UIKit.framework */; };
 		63839CF61947846B00312AFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63839CF41947846B00312AFB /* InfoPlist.strings */; };
 		63839CF81947846B00312AFB /* CartographyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63839CF71947846B00312AFB /* CartographyTests.m */; };
+		63839D021947853C00312AFB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63839D011947853C00312AFB /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		63839CF31947846B00312AFB /* CartographyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CartographyTests-Info.plist"; sourceTree = "<group>"; };
 		63839CF51947846B00312AFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		63839CF71947846B00312AFB /* CartographyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CartographyTests.m; sourceTree = "<group>"; };
+		63839D011947853C00312AFB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63839D021947853C00312AFB /* MapKit.framework in Frameworks */,
 				63839CCF1947846B00312AFB /* CoreGraphics.framework in Frameworks */,
 				63839CD11947846B00312AFB /* UIKit.framework in Frameworks */,
 				63839CCD1947846B00312AFB /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		63839CCB1947846A00312AFB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				63839D011947853C00312AFB /* MapKit.framework */,
 				63839CCC1947846B00312AFB /* Foundation.framework */,
 				63839CCE1947846B00312AFB /* CoreGraphics.framework */,
 				63839CD01947846B00312AFB /* UIKit.framework */,
